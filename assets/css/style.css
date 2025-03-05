@@ -242,6 +242,7 @@ p {
     margin: 0; 
 }
 
+
 /* Estilos para pantallas más pequeñas */
 
 @media (max-width: 576px) {
@@ -352,13 +353,11 @@ p {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
-        
       
     }
 
     .logo img {
         width: 50px;  
-        object-fit: contain; 
         
     }
 
@@ -495,6 +494,7 @@ p {
         display: none;
 
     }
+
 
 
 }
