@@ -235,7 +235,12 @@ main {
 .social-icons img {
     width: 20px;
     margin: 0 10px;
+    height: auto; 
+    object-fit: contain; 
+
 }
+
+
 
 p {
     text-align: center; 
@@ -304,7 +309,13 @@ p {
 
     footer {
         grid-area: footer;
-        font-size: 15px;
+        font-size: 15px;}
+
+        footer img {
+            width: 100%; 
+            height: auto; 
+            object-fit: contain; 
+        }
    
 
     }
@@ -352,11 +363,13 @@ p {
         display: flex;
         align-items: center;
         margin-bottom: 20px;
+        
       
     }
 
     .logo img {
         width: 50px;  
+        object-fit: contain; 
         
     }
 
@@ -493,8 +506,11 @@ p {
         display: none;
 
     }
-
-
+    footer img {
+        width: 100%; 
+        height: auto; 
+        object-fit: contain; 
+    }
 
 }
 
